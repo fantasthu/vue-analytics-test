@@ -16,8 +16,7 @@
 export default {
   name: "app",
   watch: {
-    $route(to, from) {
-      console.log(to.path);
+    $route(to) {
       this.$ga.page(to.path);
     }
   }
