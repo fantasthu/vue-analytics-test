@@ -89,11 +89,11 @@ BASE_GA = ''UA-148352580-1''
 
 首先下载谷歌插件[Tag Assistant (by Google)](https://chrome.google.com/webstore/detail/tag-assistant-by-google/kejbdjndbnbjgmefkgdddjlbokphdefk),然后进行相应页面,点击 record,刷新页面,如果是绿色就代表工作正常
 
-![01]()
+![01](https://github.com/easterCat/vue-analytics-test/blob/master/src/assets/1.png?raw=true)
 
 点击 VIEW RECORDINGS
 
-![02]()
+![02](https://github.com/easterCat/vue-analytics-test/blob/master/src/assets/2.png?raw=true)
 
 我刷新页面 3 次就统计 3 pages tracked
 
@@ -119,7 +119,7 @@ BASE_GA = ''UA-148352580-1''
 ......
 ```
 
-![3]()
+![3](https://github.com/easterCat/vue-analytics-test/blob/master/src/assets/3.png?raw=true)
 
 执行一些其他的操作,在 home 和 girl 中添加一个按钮并绑定事件
 
@@ -135,7 +135,7 @@ tryClick() {
 
 打开分析页面,ok,事件和错误信息都已经统计到
 
-![4]()
+![4](https://github.com/easterCat/vue-analytics-test/blob/master/src/assets/4.png?raw=true)
 
 #### 指标名称
 
